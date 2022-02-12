@@ -36,11 +36,13 @@ const sidebars = {
       },
       collapsed: false,
       items: [
-        'api/baseobject/congratulations',
-        'api/baseobject/create-a-blog-post',
-        'api/baseobject/create-a-document',
-        'api/baseobject/create-a-page',
-        'api/baseobject/deploy-your-site',
+        'api/baseobject/base',
+        'api/baseobject/custom',
+        // 'api/baseobject/congratulations',
+        // 'api/baseobject/create-a-blog-post',
+        // 'api/baseobject/create-a-document',
+        // 'api/baseobject/create-a-page',
+        // 'api/baseobject/deploy-your-site',
       ]
     },
     {

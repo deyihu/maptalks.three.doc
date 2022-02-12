@@ -9,14 +9,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
  */
 const config = {
   title: 'Maptalks.Three',
-  tagline: 'Base On Maptalks',
+  tagline: 'Show Your Data Base On Maptalks && Threejs',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  favicon: 'https://avatars.githubusercontent.com/u/13678959?s=200&v=4',
+  organizationName: 'maptalks', // Usually your GitHub org/user name.
+  projectName: 'maptalks.three', // Usually your repo name.
 
   presets: [
     [
