@@ -54,7 +54,7 @@ const sidebars = {
       collapsed: false,
       items: [
         'api/threelayer/base',
-        'api/threelayer/translate-your-site',
+        'api/threelayer/sharecontext',
       ]
     }
   ],

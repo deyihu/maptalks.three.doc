@@ -13,7 +13,8 @@ This is extends [maptalks.CanvasLayer](https://maptalks.org/maptalks.js/api/0.x/
 
 - geometryEvents:true `open baseobjects events`
 - identifyCountOnEvent:0 `0 means unlimited`
-- loopRenderCount:50 `per frame add scene baseobjects count` 
+- loopRenderCount:50 `per frame add scene baseobjects count`
+- ...options From [CanvasLayer](https://maptalks.org/maptalks.js/api/0.x/CanvasLayer.html)
 
 ```js
 const options: BaseLayerOptionType = {
@@ -28,6 +29,8 @@ const options: BaseLayerOptionType = {
 
 ```
 ## Create
+- constructor(id,options)
+
 
 ```js
 import {ThreeLayer} from 'maptalks.three';

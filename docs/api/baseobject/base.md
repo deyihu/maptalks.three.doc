@@ -14,13 +14,16 @@ This is the base class for all 3D objects,Its function and maptalks.geometry are
 [Line](https://github.com/maptalks/maptalks.three/blob/master/src/Line.ts), 
 [Model](https://github.com/maptalks/maptalks.three/blob/master/src/Model.ts) base on it
 
-`If you're familiar with three.js. You can customize your own graphic elements based on it`
+If you're familiar with three.js. You can customize your own graphic elements based on it
 
 such as examples we provide [circle](https://maptalks.org/maptalks.three/demo/custom-circle.html) ,[fatline](https://maptalks.org/maptalks.three/demo/custom-fatline.html),[linetrip](https://maptalks.org/maptalks.three/demo/custom-linetrip.html),[linetrail](https://maptalks.org/maptalks.three/demo/custom-linetrail.html)
 
 ## Source
  [source](https://github.com/maptalks/maptalks.three/blob/master/src/BaseObject.ts)
+
 ## Options
+
+**All subclasses will have baseobject options**
 
 - interactive:true `Allow interaction`
 - altitude:0
@@ -447,3 +450,27 @@ bar.setToolTip(d.height * 400, {
 
 * _animation()
   * `If you customize graphics and want them to perform circular animation, you need to implement the function of this method`,such as [linetrail](https://maptalks.org/maptalks.three/demo/custom-linetrail.html)
+
+
+## Subclass
+
+**All subclasses will have baseobject methods and options**
+
+* [Bar](https://github.com/maptalks/maptalks.three/blob/master/src/Bar.ts)
+* [Bars](https://github.com/maptalks/maptalks.three/blob/master/src/Bars.ts)
+* [Box](https://github.com/maptalks/maptalks.three/blob/master/src/Box.ts)
+* [Boxs](https://github.com/maptalks/maptalks.three/blob/master/src/Boxs.ts)
+* [ExtrudeLine](https://github.com/maptalks/maptalks.three/blob/master/src/ExtrudeLine.ts)
+* [ExtrudeLines](https://github.com/maptalks/maptalks.three/blob/master/src/ExtrudeLines.ts)
+* [ExtrudeLineTrail](https://github.com/maptalks/maptalks.three/blob/master/src/ExtrudeLineTrail.ts)
+* [ExtrudePolygon](https://github.com/maptalks/maptalks.three/blob/master/src/ExtrudePolygon.ts)
+* [ExtrudePolygons](https://github.com/maptalks/maptalks.three/blob/master/src/ExtrudePolygons.ts)
+* [FatLine](https://github.com/maptalks/maptalks.three/blob/master/src/FatLine.ts)
+* [FatLines](https://github.com/maptalks/maptalks.three/blob/master/src/FatLines.ts)
+* [HeatMap](https://github.com/maptalks/maptalks.three/blob/master/src/HeatMap.ts)
+* [Line](https://github.com/maptalks/maptalks.three/blob/master/src/Line.ts)
+* [Lines](https://github.com/maptalks/maptalks.three/blob/master/src/Lines.ts)
+* [Model](https://github.com/maptalks/maptalks.three/blob/master/src/Model.ts)
+* [Point](https://github.com/maptalks/maptalks.three/blob/master/src/Point.ts)
+* [Points](https://github.com/maptalks/maptalks.three/blob/master/src/Points.ts)
+* [Terrain](https://github.com/maptalks/maptalks.three/blob/master/src/Terrain.ts)
