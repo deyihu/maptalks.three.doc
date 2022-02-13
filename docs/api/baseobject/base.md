@@ -202,7 +202,7 @@ const OPTIONS = {
 * setAltitude(altitude) `set the elevation of the graphic element`
   * altitude  [elevation value]
   * return `this`
-  * `If you customize your own graphic elements, you may override this method.` such as [Bar](./src/Bar.js)
+  * `If you customize your own graphic elements, you may override this method.`
 
 
 
@@ -314,7 +314,7 @@ bar.setToolTip(d.height * 400, {
   * options.easing
   * cb [callback function]  
   * `If you customize your own graphic elements, you may need to override this method to delayed display of graphics`
-  * such as [circle](./demo/custom-circle.html)
+  * such as [circle](https://maptalks.org/maptalks.three/demo/custom-circle.html)
 
 ```js
  animationShow(options = {}, cb) {
