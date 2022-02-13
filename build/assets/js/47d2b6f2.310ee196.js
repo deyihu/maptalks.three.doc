@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[727],{4515:function(e){e.exports=JSON.parse('{"title":"BaseObject","slug":"/category/baseobject","permalink":"/build/docs/category/baseobject","navigation":{"previous":{"title":"Start","permalink":"/build/docs/api/intro"},"next":{"title":"BaseObject","permalink":"/build/docs/api/baseobject/base"}}}')}}]);
