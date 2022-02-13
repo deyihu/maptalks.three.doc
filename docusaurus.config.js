@@ -11,7 +11,7 @@ const config = {
   title: 'Maptalks.Three',
   tagline: 'Show Your Data Base On Maptalks && Threejs',
   url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/build/',
+  baseUrl: './build/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'https://avatars.githubusercontent.com/u/13678959?s=200&v=4',
