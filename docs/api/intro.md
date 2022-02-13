@@ -20,10 +20,10 @@ Maptalks.three base on [maptalks.js](https://github.com/maptalks/maptalks.js) an
 <script type="text/javascript" src="https://unpkg.com/three@0.104.0/build/three.min.js"></script>
 <script type="text/javascript" src="https://unpkg.com/maptalks/dist/maptalks.min.js"></script>
 <script type="text/javascript" src="https://unpkg.com/maptalks.three/dist/maptalks.three.min.js"></script>
-
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/three@0.104.0/build/three.min.js"></script>
+<!-- or -->
+<!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/three@0.104.0/build/three.min.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/maptalks/dist/maptalks.min.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/maptalks.three/dist/maptalks.three.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/maptalks.three/dist/maptalks.three.min.js"></script> -->
 ```
 
 ### NPM

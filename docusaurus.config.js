@@ -57,13 +57,13 @@ const config = {
             position: 'left',
             label: 'API',
           },
-          {
-            type: 'docSidebar',
-            sidebarId: 'second',
-            position: 'left',
-            label: 'Second',
-          },
-          { to: '/blog', label: 'Blog', position: 'left' },
+          // {
+          //   type: 'docSidebar',
+          //   sidebarId: 'second',
+          //   position: 'left',
+          //   label: 'Second',
+          // },
+          // { to: '/blog', label: 'Blog', position: 'left' },
           // {
           //   href: 'https://github.com/facebook/docusaurus',
           //   label: 'GitHub',

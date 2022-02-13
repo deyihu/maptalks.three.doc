@@ -53,7 +53,7 @@ const sidebars = {
       },
       collapsed: false,
       items: [
-        'api/threelayer/manage-docs-versions',
+        'api/threelayer/base',
         'api/threelayer/translate-your-site',
       ]
     }
