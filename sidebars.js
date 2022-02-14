@@ -56,6 +56,21 @@ const sidebars = {
         'api/threelayer/base',
         'api/threelayer/sharecontext',
       ]
+    },
+    {
+      type: 'category',
+      label: 'Others',
+      link: {
+        type: 'generated-index',
+      },
+      collapsed: false,
+      items: [
+        'api/others/MergedMixin',
+        'api/others/MergeGeometryUtil',
+        'api/others/GeoJSONUtil',
+        'api/others/GeoUtil',
+        'api/others/geometryExtrude',
+      ]
     }
   ],
 

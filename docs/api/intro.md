@@ -4,7 +4,9 @@ sidebar_position: 1
 
 # Start
 
-**When using maptalks.three, you should be familiar with maptalks and three js. Let's start.**
+**When using maptalks.three, you should be familiar with [maptalks.js](https://github.com/maptalks/maptalks.js) and [three.js](https://github.com/mrdoob/three.js).** 
+
+**Let's start.**
 
 ## Install
 
@@ -29,10 +31,13 @@ Maptalks.three base on [maptalks.js](https://github.com/maptalks/maptalks.js) an
 ### NPM
 
 ``` sh
+ npm i maptalks
+ npm i three
  npm i maptalk.three
  
  #or
-
+ yarn add maptalks
+ yarn add three
  yarn add maptalks.three
 ```
 ## Incompatible changes
