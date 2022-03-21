@@ -205,6 +205,17 @@ const OPTIONS = {
   * `If you customize your own graphic elements, you may override this method.`
 
 
+* getHeight() `Get the height of the graphic element`
+  * return `Number`
+
+
+
+* setHeight(height) `set the height of the graphic element`
+  * height  [height value]
+  * return `this`
+  * `Not all graphics support height settings. Bar, box, extrudeline and extrudepolygon are supported`
+
+
 
 * show()
   * return `this`

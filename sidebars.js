@@ -70,6 +70,7 @@ const sidebars = {
         'api/others/GeoJSONUtil',
         'api/others/GeoUtil',
         'api/others/geometryExtrude',
+        'api/others/getFetchDataActor',
       ]
     }
   ],
