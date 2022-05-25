@@ -31,7 +31,7 @@ If maptalks Three's built-in baseobject can't meet your business needs. You can 
                 //Initialize internal object3d
                 this._createMesh(geometry, material);
                 //set object3d position
-                const z = layer.distanceToVector3(altitude, altitude).x;
+                const z = layer.altitudeToVector3(altitude, altitude).x;
                 const position = layer.coordinateToVector3(coordinate, z);
                 this.getObject3d().position.copy(position);
                 // this.getObject3d().rotation.x = -Math.PI;
@@ -66,7 +66,7 @@ If maptalks Three's built-in baseobject can't meet your business needs. You can 
                 //Initialize internal object3d
                 this._createMesh(geometry, material);
                 //set object3d position
-                const z = layer.distanceToVector3(altitude, altitude).x;
+                const z = layer.altitudeToVector3(altitude, altitude).x;
                 const position = layer.coordinateToVector3(coordinate, z);
                 this.getObject3d().position.copy(position);
                 this._scale = 1;
@@ -114,7 +114,7 @@ If maptalks Three's built-in baseobject can't meet your business needs. You can 
             bar.getObject3d().scale.set(scaleR, scaleR, scaleH);
             const { altitude, coordinate } = options;
             const layer = barCache.getLayer();
-            const z = layer.distanceToVector3(altitude, altitude).x;
+            const z = layer.altitudeToVector3(altitude, altitude).x;
             const position = layer.coordinateToVector3(coordinate, z);
             bar.getObject3d().position.copy(position);
             return bar;
