@@ -85,7 +85,7 @@ threeLayer.addTo(map);
 
    const center=map.getCenter();
    const altitude=100;
-   const z=threeLayer.distanceToVector3(altitude,altitude).x;
+   const z=threeLayer.altitudeToVector3(altitude,altitude).x;
    const p=threeLayer.coordinateToVector3(center,z);
 
    baseObject.getObject3d().position.copy(p);
@@ -95,7 +95,7 @@ threeLayer.addTo(map);
 
 
 
-* distanceToVector3(w, h, [coord]) `Convert length to 3D vector`
+* distanceToVector3(w, h, [coord]) `Convert length to 3D vector,For calculation of horizontal length`
   * w
   * h
   * coord  [maptalks.Coordinate] `default value is map.getCenter()`
@@ -103,6 +103,15 @@ threeLayer.addTo(map);
 
 ```js
   threeLayer.distanceToVector3(100,100);
+```
+* altitudeToVector3(altitude, [altitude], [coord]) `Convert height/altitude to 3D vector,For calculation of vertical height`
+  * altitude
+  * altitude
+  * coord  [maptalks.Coordinate] `default value is [0,40]`
+  * return `THREE.Vector3`
+
+```js
+  threeLayer.altitudeToVector3(10,10);
 ```
 
 

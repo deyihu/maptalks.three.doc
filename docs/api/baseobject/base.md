@@ -412,7 +412,7 @@ bar.setToolTip(d.height * 400, {
                     this._createMesh(geometry, material);
 
                     //set object3d position
-                    const z = layer.distanceToVector3(altitude, altitude).x;
+                    const z = layer.altitudeToVector3(altitude, altitude).x;
                     const position = layer.coordinateToVector3(coordinate, z);
                     this.getObject3d().position.copy(position);
                     this.getObject3d().rotation.x = -Math.PI;
